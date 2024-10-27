@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON Collector</title>
+    <style>
+      body { font-family: Arial, sans-serif; }
+      #jsonList { max-height: 200px; overflow-y: auto; }
+      .jsonItem { margin-bottom: 10px; }
+      .jsonItem button { margin-left: 10px; }
+    </style>
+  </head>
+  <body>
+    <h2>Collected JSON Responses</h2>
+    <div id="jsonList"></div>
+    <button id="downloadAll">Download All JSON Responses</button>
+    <button id="resetList">Reset JSON List</button> <!-- New Reset button -->
+    <script src="popup.js"></script>
+  </body>
+</html>
